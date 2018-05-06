@@ -4,8 +4,18 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import $ from 'jquery'
-import './node_modules/bootstrap/dist/css/bootstrap.min.css'
-import './node_modules/bootstrap/dist/js/bootstrap.min.js'
+import './assets/bootstrap/css/bootstrap.min.css'
+import './assets/bootstrap/js/bootstrap.min.js'
+import '../node_modules/font-awesome/css/font-awesome.min.css'
+import './assets/adminlte/css/AdminLTE.min.css'
+import './assets/adminlte/css/skins/_all-skins.min.css'
+import './assets/adminlte/js/adminlte'
+import './assets/adminlte/js/demo.js'
+import '../node_modules/vue-easytable/libs/themes-base/index.css'
+import {VTable,VPagination} from 'vue-easytable'
+
+Vue.component(VTable.name, VTable)
+Vue.component(VPagination.name, VPagination)
 
 Vue.config.productionTip = false
 
