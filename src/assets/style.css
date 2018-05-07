@@ -1,0 +1,6 @@
+.search-form{
+  list-style:none;
+  margin:0px;
+  padding: 0px;
+}
+.search-form li {float:left; margin-right: 10px;}
